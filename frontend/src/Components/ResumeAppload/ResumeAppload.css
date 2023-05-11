@@ -1,0 +1,147 @@
+.ResumeAppload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(180, 198, 241);
+}
+
+.ResumeApploadLeft {
+    flex: 6;
+    margin-left: 30px;
+}
+
+
+.ResumeApploadLeftWrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 50px; */
+}
+
+.ResumeApploadLeftWrapper>h1 {
+    margin: 15px 0px 0px;
+}
+
+.ResumeApploadLeftWrapper>p {
+    font-weight: 400;
+    color: rgb(43, 42, 42);
+    margin: 5px 0px 15px;
+
+}
+
+.resumeClass {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+#preference {
+    padding: 8px 5px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+#preference:focus {
+    outline: none;
+}
+
+#availability {
+    padding: 8px 5px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+#availability:focus {
+    outline: none;
+}
+
+.resumeClass>textarea {
+    padding: 8px 5px;
+    width: 120%;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+}
+
+.resumeClass>textarea:focus {
+    outline: none;
+}
+
+.upploadResume {
+    font-weight: bold;
+    color: black;
+    margin: 10px 0px;
+    font-size: 23px;
+}
+
+input[type='file'] {
+    /* color: transparent; */
+    margin-bottom: 6px;
+}
+
+.formatAcceptance {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+
+
+.ResumeApploadRight {
+    flex: 6;
+}
+
+.ResumeApploadRightWrapper {
+    padding: 10px;
+}
+
+.ResumeApploadRightWrapper>img {
+    height: 300px;
+    width: 300px;
+    margin: 12px 75px;
+}
+
+.ResumeApploadRightWrapper>p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.keyFeature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    color: rgb(83, 80, 80);
+}
+
+.privacyPolicy {
+    display: flex;
+    gap: 10px;
+}
+
+.submitResume {
+    width: 120px;
+    padding: 8px;
+    margin: auto;
+    /* margin: 10px 0px; */
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
